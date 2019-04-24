@@ -1,0 +1,8 @@
+# ignore IDE configure file
+.idea/
+
+# etc files
+DEBUG.py
+
+# python cache
+__pycache__/
