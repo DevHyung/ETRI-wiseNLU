@@ -58,6 +58,7 @@ if __name__ == "__main__":
         print("[Result Text] ",result)
         outputF.write(result+'\n')
         result = ''
+    outputF.close()
     print("[INFO] complete save at output.txt")
 
 
