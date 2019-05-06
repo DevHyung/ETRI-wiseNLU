@@ -3,7 +3,7 @@
 target is the WISEKB generate skeleton dialog 
 
 ### 👉 To-Do
-
+- [ ] **형태소 분서 결과와 NER 태깅 결과가 다른거 검색하는거**
 - [ ] Make Whoosh IR System (~05/10) 
 - [ ] Make CRF NER parser by ML ( ? )
 - [ ] Make KMA git repo (GPL v2로 배포)
