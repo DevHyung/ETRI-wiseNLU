@@ -8,11 +8,6 @@ target is the WISEKB generate skeleton dialog
 - [ ] Make CRF NER parser by ML ( ? )
 - [ ] Make KMA git repo (GPL v2로 배포)
 
-- [ ] **MNIST, OCR basic example code(Expected 04/11)**
-- [ ] **Basic tensorflow code + Mathmatical knowledge(Expected 04/11)**
-- [ ] Scrapping for Data collection
-- [ ] Basic web page for Data labeling (if need to JS, include ts,node JS)
-
 ### 👉 Doing 
 
 - [ ] **🔥 1. WISEKB dataset BIO tagging(~05/06)**
