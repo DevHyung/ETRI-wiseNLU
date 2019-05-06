@@ -1,0 +1,30 @@
+﻿오늘/NNG 부터/JX 3/SN 일/NNB 간/XSN 제주도/NNP 놀/VV 러/EC 가/VV 는/ETM 데/NNB 날씨/NNG 좋/VA 았/EP 으면/EC 좋/VA 겠/EP 다/EF ./SF 
+날씨/NNG 도/JX 좋/VA 은데/EC 여자/NNG 친구/NNG 랑/JKB 놀/VV 러/EC 가/VV 고/EC 싶/VX 다/EF ./SF 
+나/NP 내일/NNG 모레/NNG 날씨/NNG 좋/VA 으면/EC 놀/VV 러/EC 가/VV 려고/EF ./SF 
+비/NNG 오/VV 면/EC 무릎/NNG 도/JX 아프/VA ㄴ데/EC 언제/MAG 그치/VV 려나/EF ./SF 
+혹시/MAG 눈길/NNG 에서/JKB 미끄러지/VV 어/EC 보/VX ㄴ/ETM 적/NNB 있/VA 어/EF ?/SF 
+비/NNG 오/VV 는/ETM 날/NNG 이/VCP ㄴ데/EC 옷/NNG 이/JKS 젖/VV 어서/EC 기분/NNG 이/JKS 별로/MAG 안/MAG 좋/VA 아/EF ./SF 
+봄/NNG 에/JKB 벚꽃/NNG 이/JKS 피/VV ㄹ/ETM 터/NNB 이/VCP ㄴ데/EC 벚꽃/NNG 피/VV 면/EC 보/VV 러/EC 가/VV ㄹ까/EF ?/SF 
+친구/NNG 랑/JKB 소풍/NNG 가/VV 았/EP 는데/EC 날씨/NNG 가/JKS 엉망/NNG 진창/NNG 이/VCP 었/EP 어/EF ./SF 
+비/NNG 오/VV 는/ETM 날/NNG 에/JKB ㄴ/JX 기분/NNG 도/JX 우울/NNG 하/XSA 어/EC 지/VX 는/ETM 것/NNB 같/VA 아/EF ./SF 
+배/NNG 가/JKS 고프/VA ㄴ데/EC 밖/NNG 에/JKB 비/NNG 오/VV 아서/EC 나가/VV 지/EC ㄹ/JX 못하/VX 겠/EP 다/EF ./SF 
+눈/NNG 을/JKO 보/VV 면/EC 눈싸움/NNG 하/XSV 었/EP 던/ETM 어리/VA ㄴ/ETM 시절/NNG 이/JKS 생각나/VV 아/EF ./SF 
+앞/NNG 으로/JKB 비/NNG 오/VV 는/ETM 날/NNG 에/JKB 는/JX 우산/NNG 을/JKO 꼭/MAG 챙기/VV 어야/EC 하/VX ㄹ/ETM 것/NNB 같/VA 아/EF ./SF 
+비/NNG 오/VV 는/ETM 날/NNG 에/JKB 는/JX 오토바이/NNG 운전/NNG 조심해야/VV 겠/EP 더라/EF ./SF 
+오늘/NNG 눈/NNG 오/VV 아서/EC 오토바이/NNG 미끄러지/VV ㄹ/ETM 뻔하/VX 었/EP 어/EC 무섭/VA 다/EF ./SF 
+오늘/NNG 햇빛/NNG 이/JKS 엄청/MAG 좋/VA 아서/EC 다/NNG 들/JX 나들/NNG 이/NNG 가/VV 나/EC 보/VX 다/EF ./SF 
+이렇/VA 게/EC 햇빛/NNG 좋/VA 은/ETM 날/NNG 에/JKB 는/JX 제주도/NNP 로/JKB 여행/NNG 을/JKO 가/VV 아야/EC 하/VX 는데/EF ./SF 
+사람/NNG 들/XSN 이/JKS 날씨/NNG 안/MAG 좋/VA 다고/EC 엄청/MAG 짜증/NNG 을/JKO 내/VV 더라/EF ./SF 
+날씨/NNG 가/JKS 정말/MAG 습하/VV 어서/EC 빨래/NNG 도/JX 못/MAG 하/XSV 겠/EP 어/EF ./SF 
+나/NP 는/JX 비/NNG 가/JKS 오/VV ㄴ/ETM 뒤/NNG 맑/VA 은/ETM 날씨/NNG 가/JKS 제일/MAG 좋/VA 더라/EF ./SF 
+아침/NNG 날씨/NNG 가/JKS 너무/MAG 좋/VA 아서/EC 운동/NNG 좀/MAG 하/VV 었/EP 어/EF ./SF 
+비/NNG 오/VV 니까/EC 비/NNG 냄새/NNG 나/VV 아서/EC 정말/MAG 좋/VA 다/EF ./SF 
+오늘/NNG 날씨/NNG 가/JKS 찝찝하/VA 어서/EC 땀/NNG 이/JKS 엄청나/VA 더라/EF ./SF 
+빨래/NNG 하/XSV 고/EC 나/VX 니까/EC 갑자기/MAG 비/NNG 가/JKS 오/VV 네/EF ./SF 짜증/NNG 나/VV 게/EF ./SF 
+하늘/NNG 에/JKB 별/NNG 이/JKS 잘/MAG 보이/VV 었/EP 으면/EC 좋/VA 겠/EP 어/EF ./SF 요새/NNG 너무/MAG 안/MAG 보이/VV 어/EF ./SF 
+오늘/NNG 밤/NNG 은/JX 열대/NNG 야/NNG 가/JKS 있/VA 어서/EC 엄청나/VA 게/EC 덥/VA 다던데/EF ./SF 
+오늘/NNG 저녁/NNG 에/JKB 구름/NNG 이/JKS 없/VA 어서/EC 엄청나/VA 게/EC 밝/VV 더라/EF ./SF 
+비/NNG 오/VV 아서/EC 우비/NNG 입/VV 었/EP 는데/EC 찝찝하/VA 고/EC 너무/MAG 덥/VA 어/EF ./SF 
+비/NNG 오/VV 는/ETM 날/NNG 자동/NNG 차/NNG 가/JKS 물/NNG 을/JKO 튀기/VV 었/EP 어/EF ./SF 우울/NNG 하/XSA 어/EF ./SF 
+바람/NNG 이/JKS 많이/MAG 불/VV 어서/EC 오늘/NNG 정말/MAG 머리/NNG 가/JKS 많이/MAG 날리/VV 었/EP 어/EF ./SF 
+밖/NNG 에/JKB 나가/VV 았/EP 다/EF 오/VV 았/EP 더니/EC 춥/VA 어서/EC 손/NNG 이/JKS 얼/VV 었/EP 어/EF ./SF 
