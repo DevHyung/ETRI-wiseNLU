@@ -4,7 +4,11 @@ This file is Skeleton-Dialogue-Generation Guide by IR (modifed alignment alg.)
 
 function flow:
     - make DB( dict type pre-trained data )
-    -
+    - 비슷한 문장찾기
+    - Generate 호출
+        - insertion words 추출
+        - deletion words 추출
+        - replace 
 data descriotion:
     All file seperated '\n'
     - Q.txt  # Question sentences
@@ -214,9 +218,6 @@ if __name__ == "__main__":
 
     # TEST
     # 4, 8이 유사하게 잡혔다고 생각
-    #print_QA_by_index(4)
-    #print_QA_by_index(8)
-
     # 여기에 비슷한 문장을 찾는게 있어야함
     # 발화문장, 유사문장을 같이넣으면
     generate_response('미세먼지 때문에 창밖에 아무것도 안 보여.','출근해야 되는데 밖에 눈 많이 쌓여서 걱정이야.')
