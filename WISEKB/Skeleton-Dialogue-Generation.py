@@ -17,10 +17,15 @@ data descriotion:
     - Am.txt # Morp of Answer senetences
 
 Issue:
+    - 벚꽃은 날씨에 들어가나 ??
+
     - 관용어구 같은경우 질의발화, 답변발화의 B-I 쌍이 안맞을 경우 어떻게 치환을 해야할까 ?
     - Insertion, Deletion words 끼리의 짝이 안맞을경우 ...
     - 그리고 관용어구 경우 I 태깅같은 경우 무조건적으로 치환을 해야하는거인가
+        Q: 아니면 B-I 모두 한문장으로 보고 통째로 치환을 해줘야 하는것인가
     - 생성된 response는 기존 유사질문에 대한 답변찾은것보다 길이를 길어질수가없다 , 이거 유동적으로 ?
+    - 너무 의미적으로 반대되는건 못잡는게 많은거 같은데 -> 질문이 긍부정이냐 정도는 찾아야될거같다
+    - 주격조사까진 껴야할꺼같은데 ?
 
 '''
 from typing import List, TextIO, Dict
@@ -129,7 +134,7 @@ def _replace_words(_qIdx,_iWords,_SqIdx,_dWords)-> str:
             minIdx = min(len(dWordList),len(iWordList))
 
             for i in range(0,minIdx):
-                result[dWordList[i]] = " * " + qm[dWordList[i]] + " * "
+                result[dWordList[i]] = " * " + qm[iWordList[i]] + " * "
         except: # 없는키
             pass
 
@@ -220,4 +225,6 @@ if __name__ == "__main__":
     # 4, 8이 유사하게 잡혔다고 생각
     # 여기에 비슷한 문장을 찾는게 있어야함
     # 발화문장, 유사문장을 같이넣으면
-    generate_response('미세먼지 때문에 창밖에 아무것도 안 보여.','출근해야 되는데 밖에 눈 많이 쌓여서 걱정이야.')
+    
+    generate_response('미세먼지 때문에 창밖에 아무것도 안 보여.', '출근해야 되는데 밖에 눈 많이 쌓여서 걱정이야.')
+    #generate_response('미세먼지 때문에 창밖에 아무것도 안 보여.','다음 주가 벚꽃 절정이래.')
