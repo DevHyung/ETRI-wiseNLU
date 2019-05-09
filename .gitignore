@@ -3,6 +3,7 @@
 
 # etc files
 DEBUG.py
+CONFIG.py
 .DS_Store
 # python cache
 __pycache__/
