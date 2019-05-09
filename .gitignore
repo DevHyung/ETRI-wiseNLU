@@ -5,6 +5,8 @@
 DEBUG.py
 CONFIG.py
 */CONFIG.py
+*.seg
+*.toc
 .DS_Store
 # python cache
 __pycache__/
