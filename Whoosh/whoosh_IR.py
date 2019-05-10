@@ -98,11 +98,13 @@ if __name__ == "__main__":
                             idx=u"{}".format(fori))
     writer.commit()
 
-    # Search
 
+    # create query datas from input.txt file and 
+    # create output file stream
     f = open('input.txt','r',encoding='utf8')
-    querys = f.readlines()
+    querys: List[str] = f.readlines()
     f.close()
+
     outF = open('output.txt','w',encoding='utf8')
     '''
     # 데이터 모자른거 채울때 문서수정할때
@@ -114,6 +116,7 @@ if __name__ == "__main__":
             print(query)
     exit(-1)
     '''
+    # Search
     with ix.searcher() as searcher:
         qp = QueryParser("content", ix.schema)
         idx = 1
@@ -137,6 +140,7 @@ if __name__ == "__main__":
                     except:
                         dataDict[r['idx']] = r.score
             # Tri-gram weight sum
+            # 여기를 지우면 단순하게 bi-gram 까지만의 weight sum 을 이용
             for fori in range(len(splitMorp) - 2):
                 user_q = qp.parse(u'{}'.format(splitMorp[fori]+" "+splitMorp[fori+1]+" "+splitMorp[fori+2]))
                 results = searcher.search(user_q, limit=10)
@@ -155,4 +159,4 @@ if __name__ == "__main__":
                     break
         end = time.time()
         # time checking end
-        print(end-start) # 42.87초 200개 = 개당 0.2초
+        print(end-start) # only bi-gram = 42.87초, 개당 0.21초  | include tri-gram 57.36초 개당 0.28초
