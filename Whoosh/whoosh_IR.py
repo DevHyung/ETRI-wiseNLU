@@ -78,7 +78,7 @@ if __name__ == "__main__":
     # Set schema
     schema = Schema(title=TEXT(stored=True),
                     path=ID(stored=True),
-                    content=NGRAMWORDS(maxsize=2, stored=True),
+                    content=NGRAMWORDS(minsize=2, maxsize=3, stored=True),
                     idx=ID(stored=True))
     # create schema
     ix = create_in(indexdir, schema)
@@ -121,17 +121,26 @@ if __name__ == "__main__":
         start = time.time()
         for query in querys:
             dataDict: Dict[int, int] = {}
-            print("{}번째 진행중..".format(idx))
+            log('i', "{}번째 검색중..".format(idx))
             idx += 1
             query = query.strip()
             queryIdx = QList.index(query)
             morpStr = get_morp_from_list(query)
             splitMorp = morpStr.split(' ')
+            # bi-gram weight sum
             for fori in range(len(splitMorp) - 1):
                 user_q = qp.parse(u'{}'.format(splitMorp[fori]+" "+splitMorp[fori+1]))
                 results = searcher.search(user_q, limit=10)
                 for r in results:
-                    print(r, r.score, r.rank, r.docnum, r['content'])
+                    try:
+                        dataDict[r['idx']] += r.score
+                    except:
+                        dataDict[r['idx']] = r.score
+            # Tri-gram weight sum
+            for fori in range(len(splitMorp) - 2):
+                user_q = qp.parse(u'{}'.format(splitMorp[fori]+" "+splitMorp[fori+1]+" "+splitMorp[fori+2]))
+                results = searcher.search(user_q, limit=10)
+                for r in results:
                     try:
                         dataDict[r['idx']] += r.score
                     except:
@@ -139,7 +148,7 @@ if __name__ == "__main__":
             sortedTmp = sorted(dataDict.items(), key=operator.itemgetter(1), reverse=True)
             while True:
                 top = sortedTmp.pop(0)
-                if int(top[0]) == queryIdx:
+                if int(top[0]) == queryIdx: # 자기랑 같은 문장은 제외
                     pass
                 else:
                     outF.write(QList[int(top[0])] + '\n')
