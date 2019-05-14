@@ -12,8 +12,8 @@ from typing import List, TextIO,Dict
 import time
 '''__________ CONFIG AREA START __________'''
 DATA_DIR: str         = "../WISEKB/data/"
-Q_FILE_NAME: str      = "tmpQ.txt" # Q.txt
-Q_MORP_FILE_NAME: str = "tmpQ_M.txt" ## Q_MORP.txt
+Q_FILE_NAME: str      = "tmpQ_WT.txt" # Q.txt
+Q_MORP_FILE_NAME: str = "tmpQ_M_WT.txt" ## Q_MORP.txt
 A_FILE_NAME: str      = "A.txt"
 A_MORP_FILE_NAME: str = "A_MORP.txt"
 '''__________ CONFIG AREA END   __________'''
@@ -99,7 +99,7 @@ if __name__ == "__main__":
     writer.commit()
 
 
-    # create query datas from input.txt file and 
+    # create query datas from input file and
     # create output file stream
     f = open('input.txt','r',encoding='utf8')
     querys: List[str] = f.readlines()
