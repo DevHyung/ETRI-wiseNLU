@@ -31,17 +31,21 @@ writer = ix.writer()
 writer.add_document(title=u"First document", path=u"/a",
                     content=u"This is the first document we've added!",
                     tags=u"우리는 민족중흥의 역사적 사명을 띄고")
+
 writer.add_document(title=u"third document", path=u"/a",
                     content=u"The 3 one is even more interesting!",
                     tags=u"나도 태어는났어. 저기도")
+
 writer.add_document(title=u"Second document", path=u"/b",
                     content=u"The second one is even more interesting!",
                     tags=u"이땅에 태어났다. 이에 우리는")
 
 writer.add_document(title=u"My document", content=u"This is my document!",
                     path=u"/a", tags=u"first short")
+
 writer.add_document(title=u"Second try", content=u"This is the second example.",
                     path=u"/b", tags=u"second short")
+
 writer.add_document(title=u"Third time's the charm", content=u"Examples are many.",
                     path=u"/c", tags=u"short")
 writer.commit()
@@ -54,7 +58,7 @@ from whoosh.qparser import QueryParser
 # 색인이 searcher 컨텍스를 이용합니다.
 with ix.searcher() as searcher:
 	# N-Gram 단어라 "사명을..." 에서 "명을"을 입력해도 찾아옵니다.
-	query = QueryParser("content", ix.schema).parse(u'example')
+	query = QueryParser("tags", ix.schema).parse(u'땅에 태어')
 	results = searcher.search(query,limit=10)
 	for r in results:
-		print (r)
+		print (r,r.score,r.rank,r.docnum)
